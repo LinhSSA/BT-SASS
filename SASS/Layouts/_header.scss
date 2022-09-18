@@ -1,7 +1,90 @@
 header{
-    #navHeader{
-        .navHeader-logo{
-            background-image: url(../../img/);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    .header-normal{
+        transition: height .5s, line-height .5s, margin .5s;
+        background: none;
+        height: 100px;
+        #header-nav{
+            padding: 0 30px;
+            height: 100px;
+            .nav-header{
+                max-height: 100%;
+                padding: 0;
+                .nav-header-logo{
+                    padding:0;
+                    height: 100px;
+                    transition: height .5s, line-height .5s, margin .5s;
+                    img{
+                        display: inline-block;
+                        height: 100%;
+                    }
+                }
+                .nav-header-left{
+                    justify-content: end;
+                    .navbar-nav{
+                        .nav-item{
+                            margin-left: 2px;
+                            transition: all 0.5s;
+                            .nav-link{
+                                color: $color-white;
+                                padding: $pd-1;
+                                font-size: $font-size-0;
+                                &:hover{
+                                    color: $color-orange-0;
+                                }
+                            }
+                            .nav-link.active{
+                                color: $color-orange-0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .header-scroll{
+        transition: height .5s, line-height .5s, margin .5s;
+        background-color: $color-black-3;
+        height: 60px;
+        #header-nav{
+            padding: 0 30px;
+            height: 60px;
+            .nav-header{
+                max-height: 100%;
+                padding: 0;
+                .nav-header-logo{
+                    padding:0;
+                    height: 60px;
+                    transition: height .5s, line-height .5s, margin .5s;
+                    img{
+                        display: inline-block;
+                        max-height: 100%;
+                    }
+                }
+                .nav-header-left{
+                    justify-content: end;
+                    .navbar-nav{
+                        .nav-item{
+                            margin-left: 2px;
+                            transition: all 0.5s;
+                            .nav-link{
+                                color: $color-white;
+                                padding: $pd-1;
+                                font-size: $font-size-0;
+                                &:hover{
+                                    color: $color-orange-0;
+                                }
+                            }
+                            .nav-link.active{
+                                color: $color-orange-0;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
