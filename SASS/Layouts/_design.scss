@@ -1,5 +1,79 @@
 .body-content{
     .design-content{
-        height: 600px;
+        margin:$mg-1 0;
+        .design-content-top{
+            padding: 0;
+            margin-bottom: $mg-2;
+            h3{
+                position: relative;
+                margin-bottom: $mg-3;
+                padding-bottom: $pd-3;
+                letter-spacing: 2px;
+                font-weight: $font-weight-normal;
+                font-size:$font-size-4;
+                &::after{
+                    content: "";
+                    height: 2px;
+                    width: 60px;
+                    background: $color-black-4;
+                    position: absolute;
+                    bottom: -2px;
+                    left: 50%;
+                    margin-left: -31px;
+                }
+            }
+            p{
+                display: inline-block;
+                width: 60%;
+                margin: 0 auto;
+                color: $color-gray-2;
+                line-height: 25px;
+                margin-bottom: $mg-4;
+            }
+        }
+        .design-box{
+            padding: 0 $pd-2;
+            .design-content-item{
+                padding: $pd-2;
+                position: relative;
+                border: $border-0;
+                border-radius: 4px;
+                .design-icon{
+                    transition: all .5s;
+                    position: absolute;
+                    top: -30px;
+                    left: 30px;
+                    width: 60px;
+                    height: 60px;
+                    line-height: 60px;
+                    text-align: center;
+                    border-radius: 4px;
+                    background-color: $color-black-0;
+                    box-shadow: $box-shadow-0;
+                    padding-bottom: $pd-2;
+                    i{
+                        color: $color-white;
+                        font-size: $font-size-5;
+                        line-height: 60px;
+                    }
+                }
+                .design-title{
+                    display: inline-block;
+                    margin-top: $mg-5;
+                    h4{
+                        margin-bottom: $mg-3;
+                        letter-spacing: 1px;
+                        font-weight: $font-weight-normal;
+                        font-size: $font-size-2;
+                    }
+                }
+                .design-desc{
+                    color: $color-gray-2;
+                }
+                &:hover .design-icon{
+                    background-color: $color-orange-0;
+                }
+            }
+        }
     }
 }

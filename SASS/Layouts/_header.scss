@@ -8,7 +8,7 @@ header{
         background: none;
         height: 100px;
         #header-nav{
-            padding: 0 30px;
+            padding: 0 $pd-2;
             height: 100px;
             .nav-header{
                 max-height: 100%;
@@ -30,7 +30,7 @@ header{
                             transition: all 0.5s;
                             .nav-link{
                                 color: $color-white;
-                                padding: $pd-1;
+                                padding:0 $pd-1;
                                 font-size: $font-size-0;
                                 &:hover{
                                     color: $color-orange-0;
@@ -50,7 +50,7 @@ header{
         background-color: $color-black-3;
         height: 60px;
         #header-nav{
-            padding: 0 30px;
+            padding: 0 $pd-2;
             height: 60px;
             .nav-header{
                 max-height: 100%;
