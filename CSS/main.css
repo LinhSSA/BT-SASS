@@ -756,7 +756,7 @@ header .header-scroll #header-nav .nav-header .nav-header-left .navbar-nav .nav-
   background-attachment: fixed;
 }
 .body-content .together .icon-box .nav-pills {
-  margin-bottom: 70px;
+  margin-bottom: 40px;
 }
 .body-content .together .icon-box .nav-pills li:first-child {
   margin-left: 0;
@@ -791,4 +791,122 @@ header .header-scroll #header-nav .nav-header .nav-header-left .navbar-nav .nav-
 }
 .body-content .together .icon-box .nav-pills li .together-nav-item.active::after {
   display: block;
+}
+.body-content .together .icon-box .panel-body {
+  padding: 30px 0;
+}
+.body-content .together .icon-box .panel-body .tab-content .tab-pane {
+  line-height: 30px;
+}
+.body-content .together .icon-box .panel-body .tab-content .tab-pane .heading-title h5 {
+  letter-spacing: 2px;
+  color: #7e7e7e;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.body-content .together .icon-box .panel-body .tab-content .tab-pane .heading-title h2 {
+  margin-bottom: 50px;
+  letter-spacing: 2px;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.body-content .together .icon-box .panel-body .tab-content .tab-pane .heading-title p {
+  margin-bottom: 0;
+}
+
+.body-content .count {
+  padding: 100px 0;
+  background: #1b1b1b;
+}
+.body-content .count .row {
+  text-align: center;
+}
+.body-content .count .row .count-icon {
+  margin-bottom: 10px;
+  color: #fff;
+}
+.body-content .count .row .count-icon i {
+  padding-right: 10px;
+  font-size: 36px;
+}
+.body-content .count .row .count-icon span {
+  letter-spacing: 2px;
+  font-size: 36px;
+}
+.body-content .count .row h4 {
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+.body-content .slogan .slogan-box {
+  width: 65%;
+  margin: 0 auto;
+}
+.body-content .slogan .slogan-box .owl-carousel .item {
+  text-align: center;
+}
+.body-content .slogan .slogan-box .owl-carousel .item .slogan-img {
+  display: inline-block;
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+.body-content .slogan .slogan-box .owl-carousel .item .slogan-img img {
+  display: block;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 0;
+}
+.body-content .slogan .slogan-box .owl-carousel .item .slogan-content .slogan-title {
+  font-size: 16px;
+  font-style: italic;
+  line-height: 30px;
+  margin-bottom: 30px;
+  color: #7e7e7e;
+}
+.body-content .slogan .slogan-box .owl-carousel .item .slogan-content .slogan-name {
+  margin-top: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #222;
+  font-size: 14px;
+}
+.body-content .slogan .slogan-box .owl-carousel .item .slogan-content .slogan-name span {
+  display: block;
+  color: #7f7f7f;
+  font-size: 12px;
+}
+.body-content .slogan .slogan-box .owl-theme .owl-dots .owl-dot span {
+  background: #eaeaea !important;
+  width: 12px;
+  height: 12px;
+  border-radius: 20px;
+  opacity: 0.5;
+}
+.body-content .slogan .slogan-box .owl-theme .owl-dots .owl-dot.active span, .body-content .slogan .slogan-box .owl-theme .owl-dots .owl-dot:hover span {
+  opacity: 1;
+}
+.body-content .slogan .slogan-box .owl-theme .owl-dots {
+  margin-top: 10px;
+}
+.body-content .slogan .slogan-box .owl-carousel .owl-stage {
+  transition: all 1s !important;
+}
+.body-content hr {
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+footer .footer-top {
+  padding: 80px 0;
+  background: #222;
+}
+footer .footer-bottom {
+  padding: 35px 0;
+  background: #1b1b1b;
+  border: 1px solid #2c2c2c;
 }/*# sourceMappingURL=main.css.map */

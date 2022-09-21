@@ -1,0 +1,68 @@
+.body-content{
+    .slogan{
+        .slogan-box{
+            width: 65%;
+            margin: 0 auto;
+            .owl-carousel{
+                .item{
+                    text-align: center;
+                    .slogan-img{
+                        display: inline-block;
+                        width: 100px;
+                        height: auto;
+                        margin-bottom: $mg-3;
+                        img{
+                            display: block;
+                            border-radius: 50%;
+                            vertical-align: middle;
+                            border: 0;
+                        }
+                    }
+                    .slogan-content{
+                        .slogan-title{
+                            font-size: $font-size-1 + 1;
+                            font-style: italic;
+                            line-height: 30px;
+                            margin-bottom: $mg-5;
+                            color: $color-gray-2;
+                        }
+                        .slogan-name{
+                            margin-top: $mg-6;
+                            letter-spacing: 2px;
+                            text-transform: uppercase;
+                            color: $color-black-0;
+                            font-size: $font-size-0 + 1;
+                            span{
+                                display: block;
+                                color: $color-gray-10;
+                                font-size: $font-size-0 - 1;
+                            }
+                        }
+                    }
+                }
+            }
+            .owl-theme .owl-dots .owl-dot span{
+                background: $color-white-1 !important;
+                width: 12px;
+                height: 12px;
+                border-radius: 20px;
+                opacity: 0.5;
+            }
+            .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+                opacity: 1;
+            }
+            .owl-theme .owl-dots{
+                margin-top: $mg-6;
+            }
+            .owl-carousel .owl-stage{
+                transition: all 1s !important;
+            }
+        }
+    }
+    hr{
+        margin-top: 0;
+        margin-bottom: 0;
+        border: 0;
+        border-top: $border-top-1;
+    }
+}

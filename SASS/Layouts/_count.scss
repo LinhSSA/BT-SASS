@@ -1,0 +1,26 @@
+.body-content{
+    .count{
+        padding: $pd-4 0;
+        background: $color-black-2;
+        .row{
+            text-align: center;
+            .count-icon{
+                margin-bottom: $mg-6;
+                color: $color-white;
+                i{
+                    padding-right: $pd-3;
+                    font-size: $font-size-6;
+                }
+                span{
+                    letter-spacing: 2px;
+                    font-size: $font-size-6;
+                }
+            }
+            h4{
+                color: $color-white;
+                letter-spacing: 1px;
+                font-size: $font-size-1;
+            }
+        }
+    }
+}

@@ -5,7 +5,7 @@
         background-attachment: fixed;
         .icon-box{
             .nav-pills{
-                margin-bottom: 70px;
+                margin-bottom: 40px;
                 li:first-child{
                     margin-left: 0;
                 }
@@ -37,6 +37,32 @@
                         background-color: $color-white;
                         &::after{
                             display: block;
+                        }
+                    }
+                }
+            }
+            .panel-body{
+                padding: $pd-2 0;
+                .tab-content{
+                    .tab-pane{
+                        line-height: 30px;
+                        .heading-title{
+                            h5{
+                                letter-spacing: 2px;
+                                color: $color-gray-2;
+                                font-size: $font-size-0 + 1;
+                                text-transform: uppercase;
+                            }
+                            h2{
+                                margin-bottom: $mg-4;
+                                letter-spacing: 2px;
+                                font-weight: $font-weight-normal;
+                                text-transform: uppercase;
+                                font-size: $font-size-5;
+                            }
+                            p{
+                                margin-bottom: 0;
+                            }
                         }
                     }
                 }

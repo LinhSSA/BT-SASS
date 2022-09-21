@@ -1,0 +1,11 @@
+footer{
+    .footer-top{
+        padding: $pd-8 * 2 0;
+        background: $color-black-0;
+    }
+    .footer-bottom{
+        padding: $pd-8 - 5 0;
+        background: $color-black-2;
+        border: $border-top-0;
+    }
+}

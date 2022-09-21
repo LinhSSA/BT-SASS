@@ -29,4 +29,16 @@ for (var i = 0; i < liList.length; i++) {
 //     this.className += " active";
 //   });
 // }
-
+$('.num').countUp();
+// owl-carosel
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    nav:false,
+    autoplay:true,
+    autoplayTimeout:5000,
+    responsive:{
+        0:{
+            items:1
+        }
+    }
+})
