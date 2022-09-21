@@ -8,6 +8,11 @@ window.onscroll = function () {
         $('#header-style').addClass("header-normal");
         $('#header-style').removeClass("header-scroll");
     }
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
 } 
 // add class active header
 var navActive = document.getElementById("header-navbar-nav");
@@ -42,3 +47,9 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+// back to top
+let mybutton = document.getElementById("myBtn");
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
