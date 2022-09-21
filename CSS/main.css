@@ -13,6 +13,26 @@ body {
   padding: 0;
 }
 
+.h3-line {
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.h3-line::after {
+  content: "";
+  height: 2px;
+  width: 60px;
+  background: #595959;
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  margin-left: -31px;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -62,6 +82,8 @@ header .header-normal #header-nav .nav-header .nav-header-left .navbar-nav .nav-
 }
 
 header .header-normal #header-nav .nav-header .nav-header-left .navbar-nav .nav-item .nav-link {
+  -webkit-transition: all .5s;
+  transition: all .5s;
   color: #fff;
   padding: 0 12px;
   font-size: 13px;
@@ -71,7 +93,7 @@ header .header-normal #header-nav .nav-header .nav-header-left .navbar-nav .nav-
   color: #d6b161;
 }
 
-header .header-normal #header-nav .nav-header .nav-header-left .navbar-nav .nav-item .nav-link.active {
+header .header-normal #header-nav .nav-header .nav-header-left .navbar-nav .nav-item.active .nav-link {
   color: #d6b161;
 }
 
@@ -170,26 +192,6 @@ header .header-scroll #header-nav .nav-header .nav-header-left .navbar-nav .nav-
 .body-content .design-content .design-content-top {
   padding: 0;
   margin-bottom: 80px;
-}
-
-.body-content .design-content .design-content-top h3 {
-  position: relative;
-  margin-bottom: 20px;
-  padding-bottom: 10px;
-  letter-spacing: 2px;
-  font-weight: normal;
-  font-size: 24px;
-}
-
-.body-content .design-content .design-content-top h3::after {
-  content: "";
-  height: 2px;
-  width: 60px;
-  background: #595959;
-  position: absolute;
-  bottom: -2px;
-  left: 50%;
-  margin-left: -31px;
 }
 
 .body-content .design-content .design-content-top p {
@@ -395,6 +397,21 @@ header .header-scroll #header-nav .nav-header .nav-header-left .navbar-nav .nav-
 }
 
 .body-content .showcase {
-  height: 500px;
+  display: inline-block;
+  width: 100%;
+  padding: 100px 0;
+}
+
+.body-content .showcase .showcase-top {
+  text-align: center;
+  padding: 0;
+}
+
+.body-content .showcase .showcase-top p {
+  display: inline-block;
+  width: 60%;
+  margin: 0 auto;
+  color: #7e7e7e;
+  line-height: 25px;
 }
 /*# sourceMappingURL=main.css.map */

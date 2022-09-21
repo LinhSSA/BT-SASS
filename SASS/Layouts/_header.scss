@@ -29,6 +29,7 @@ header{
                             margin-left: 2px;
                             transition: all 0.5s;
                             .nav-link{
+                                transition: all .5s;
                                 color: $color-white;
                                 padding:0 $pd-1;
                                 font-size: $font-size-0;
@@ -36,7 +37,9 @@ header{
                                     color: $color-orange-0;
                                 }
                             }
-                            .nav-link.active{
+                        }
+                        .nav-item.active{
+                            .nav-link{
                                 color: $color-orange-0;
                             }
                         }

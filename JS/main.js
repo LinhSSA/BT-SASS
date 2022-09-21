@@ -9,3 +9,13 @@ window.onscroll = function () {
         $('#header-style').removeClass("header-scroll");
     }
 } 
+// add class active
+var navActive = document.getElementById("header-navbar-nav");
+var liList = navActive.getElementsByClassName("nav-item");
+for (var i = 0; i < liList.length; i++) {
+    liList[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace("active","");
+    this.className += " active";
+  });
+}

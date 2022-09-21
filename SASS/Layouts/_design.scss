@@ -4,24 +4,6 @@
         .design-content-top{
             padding: 0;
             margin-bottom: $mg-2;
-            h3{
-                position: relative;
-                margin-bottom: $mg-3;
-                padding-bottom: $pd-3;
-                letter-spacing: 2px;
-                font-weight: $font-weight-normal;
-                font-size:$font-size-4;
-                &::after{
-                    content: "";
-                    height: 2px;
-                    width: 60px;
-                    background: $color-black-4;
-                    position: absolute;
-                    bottom: -2px;
-                    left: 50%;
-                    margin-left: -31px;
-                }
-            }
             p{
                 display: inline-block;
                 width: 60%;
