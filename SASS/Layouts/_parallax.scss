@@ -1,0 +1,29 @@
+.body-content{
+    .parallax{
+        background-image: url(../../img/8.jpg);
+        padding: 150px 0;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 50% 50%;
+        background-size: cover;
+        .container{
+            padding: 0;
+            .parallax-heading{
+                text-align: center;
+                h4{
+                    letter-spacing: 3px;
+                    font-size: $font-size-1 + 1;
+                    color: $color-orange-0;
+                    margin-bottom: 5px;
+                }
+                h1{
+                    margin-bottom: 0;
+                    letter-spacing: 2px;
+                    font-weight: $font-weight-normal;
+                    color: $color-white;
+                    font-size: $font-size-6;
+                }
+            }
+        }
+    }
+}

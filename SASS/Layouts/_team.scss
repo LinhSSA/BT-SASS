@@ -1,0 +1,132 @@
+.body-content{
+    .team{
+        .team-pd{
+            padding: 0 $pd-2;
+        }
+        .team-member{
+            position: relative;
+            overflow: hidden;
+            .team-img{
+                position: relative;
+                .team-img-info{
+                    position: absolute;
+                    right: 0;
+                    bottom: 30px;
+                    width: 70%;
+                    padding: $pd-3 $pd-7;
+                    text-align: right;
+                    background: $bg-color-3;
+                    color: $color-white;
+                    margin-bottom: 0;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    h5{
+                        margin-bottom: 0;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                        font-weight: $font-weight-normal;
+                        font-size: $font-size-0 + 1;
+                    }
+                    span{
+                        color: $color-gray-7;
+                        font-size: $font-size-0 - 1;
+                    }
+                }
+            }
+            .team-hover{
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                transition: all .3s;
+                opacity: 0;
+                border: $border-1;
+                background-color: $bg-color-0;
+                .team-hover-desc{
+                    position: absolute;
+                    width: 100%;
+                    top: -70px;
+                    text-align: center;
+                    color: $color-black-0;
+                    font-size: $font-size-0 + 1;
+                    padding: 0 $pd-7;
+                    transition: all .5s;
+                    opacity: 0;
+                    h4{
+                        margin-bottom: $mg-3 + 5;
+                        letter-spacing: 4px;
+                        text-transform: uppercase;
+                        font-size: $font-size-0 + 1;
+                    }
+                    p{
+                        margin-bottom: 0;
+                        color: $color-gray-2;
+                        font-weight: $font-weight-normal;
+                        line-height: $font-size-5;
+                    }
+                }
+                .team-hover-link{
+                    position: absolute;
+                    width: 100%;
+                    bottom: -30px;
+                    text-align: center;
+                    opacity: 0;
+                    transition: all .3s;
+                    a{
+                        text-decoration: none;
+                        transition: all .5s;
+                        color: $color-black-0;
+                        margin: 0 $mg-6;
+                        font-size: $font-size-1 + 1;
+                        &:hover{
+                            color: $color-orange-0;
+                        }
+                    }
+                }
+            }
+            &:hover{
+                .team-hover{
+                    opacity: 1;
+                    .team-hover-desc{
+                        transform: translateY(73%);
+                        opacity: 1;
+                    }
+                    .team-hover-link{
+                        opacity: 1;
+                        transform: translateY(-220%);
+                    }
+                }
+            }
+        }
+        .team-join{
+            position: relative;
+            background: $color-gray-8;
+            margin-top: $mg-1;
+            width: 100%;
+            padding: $pd-8;
+            display: flex;
+            justify-content: space-between;
+            .team-join-info{
+                h4{
+                    margin-bottom: 0;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    color: $color-black-6;
+                    font-weight: $font-weight-normal;
+                    line-height: 1.5;
+                    font-size: $font-size-2;
+                    span{
+                        color: $color-orange-0;
+                    }
+                }
+                p{
+                    margin-top: $mg-6;
+                    color: $color-gray-2;
+                }
+            }
+            .btn-join{
+                height: 70%;
+            }
+        }
+    }
+}

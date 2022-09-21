@@ -1,0 +1,46 @@
+.body-content{
+    .together{
+        background-image: url(../../img/pattern-2.png);
+        background-repeat: repeat;
+        background-attachment: fixed;
+        .icon-box{
+            .nav-pills{
+                margin-bottom: 70px;
+                li:first-child{
+                    margin-left: 0;
+                }
+                li{
+                    margin-left: $mg-3;
+                    a{ 
+                        position: relative;
+                        color: $color-black-0;
+                        background-color:$bg-color-2;
+                        padding: 35px 70px;
+                        i{
+                            font-size: $font-size-5;
+                        }
+                        &::after{
+                            content: "";
+                            border-width: 10px 10px 0 10px;
+                            border-style: solid;
+                            border-color: #fff transparent transparent transparent;
+                            position: absolute;
+                            bottom: -10px;
+                            left: 50%;
+                            width: 0;
+                            height: 0;
+                            margin-left: -10px;
+                            display: none;
+                        }
+                    }
+                    .together-nav-item.active{
+                        background-color: $color-white;
+                        &::after{
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

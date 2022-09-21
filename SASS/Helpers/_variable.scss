@@ -6,6 +6,9 @@ $color-gray-3:#a9a8a8;
 $color-gray-4:#5a5a5a;
 $color-gray-5:#606060;
 $color-gray-6:#a4a4a4;
+$color-gray-7:rgba(255, 255, 255, .5);
+$color-gray-8:#f5f5f5;
+$color-gray-9:#909090;
 $color-orange-0:#d6b161;
 $color-white:#fff;
 $color-black-0:#222;
@@ -13,6 +16,10 @@ $color-black-1: #323232;
 $color-black-2:#1b1b1b;
 $color-black-3:#0a0a0a;
 $color-black-4:#595959;
+$color-black-5:#757575;
+$color-black-6:#333;
+$color-black-7:#bbb;
+
 
 
 
@@ -33,6 +40,9 @@ $pd-3:10px;
 $pd-4:100px;
 $pd-5:60px;
 $pd-6:8px;
+$pd-7:20px;
+$pd-8:40px;
+$pd-9:15px;
 
 // Margin
 $mg-1:100px;
@@ -41,6 +51,7 @@ $mg-3:20px;
 $mg-4:50px;
 $mg-5:30px;
 $mg-6:10px;
+$mg-7:15px;
 // Font-weight
 $font-weight-400:400;
 $font-weight-300:300;
@@ -59,5 +70,6 @@ $border-right-0:1px solid #a4a4a4;
 $bg-color-0:rgba(255, 255, 255, .9);
 $bg-color-1:rgba(0, 0, 0, .5);
 $bg-color-2:rgba(34, 34, 34, .05);
+$bg-color-3:rgba(0, 0, 0, .7);
 // Box-shadow
 $box-shadow-0:0 0 0 10px #fff;

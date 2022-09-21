@@ -152,100 +152,366 @@
                 </div>
             </div>
         </div>
-        <div class="showcase">
-            <div class="showcase-top container">
+        <div class="showcase page-content">
+            <div class="heading container">
                 <h3 class="h3-line">CREATIVE SHOWCASE</h3>
                 <p>We are a team of multi-skilled and curious digital specialists who are always up for a challenge and learning as fast as digital is changing. We are a team of multi-skilled and curious digital specialists who are always up for a challenge.</p>
             </div>
-            <div id="myBtnContainer">
-                <button class="btn active" onclick="filterSelection('all')"> ALL</button>
-                <button class="btn" onclick="filterSelection('print')"> PRINTING</button>
-                <button class="btn" onclick="filterSelection('web')"> WEB</button>
-                <button class="btn" onclick="filterSelection('illustration')"> ILLUSTRATION</button>
-                <button class="btn" onclick="filterSelection('media')"> MEDIA</button>
-                <button class="btn" onclick="filterSelection('crafts')"> CRAFTS</button>
-            </div>
-            <div class="row">
-                <div class="column nature col-3">
-                  <div class="content">
-                    <img src="./img/01.jpg" alt="01" style="width:100%">
-                    <div class="portfolio-description">
+            <ul class="showcase-nav d-flex justify-content-center list-unstyled">
+                <li class="showcase-nav-item active">
+                    <a href="#" class="showcase-link">ALL</a>
+                </li>
+                <li class="showcase-nav-item">
+                    <a href="#" class="showcase-link">PRINTING</a>
+                </li>
+                <li class="showcase-nav-item">
+                    <a href="#" class="showcase-link">WEB</a>
+                </li>
+                <li class="showcase-nav-item">
+                    <a href="#" class="showcase-link">ILLUSTRATION</a>
+                </li>
+                <li class="showcase-nav-item">
+                    <a href="#" class="showcase-link">MEDIA</a>
+                </li>
+                <li class="showcase-nav-item">
+                    <a href="#" class="showcase-link">CRAFTS</a>
+                </li>
+            </ul>
+            <div class="row showcase-gallary">
+                <div class="col-3 showcase-gallary-item">
+                    <img class="img-fluid" src="./img/01.jpg">
+                    <div class="showcase-description">
                         <i class="fa fa-search"></i>
-                        <h4>LIGHTBOX VIEW</h4>
-                        <P>CATEGORY</P>
+                        <div>
+                            <h4>LIGHTBOX VIEW</h4>
+                            <P>CATEGORY</P>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                <div class="column nature col-3">
-                    <div class="content">
-                      <img src="./img/02.jpg" alt="01" style="width:100%">
-                      <div class="portfolio-description">
-                            <i class="fa fa-link"></i>
-                            <h4>EXTERNAL LINK</h4>
-                            <P>CATEGORY 1, CATEGORY 1</P>
-                      </div>
+                <div class="col-3 showcase-gallary-item">
+                    <img class="img-fluid" src="./img/02.jpg">
+                    <div class="showcase-description">
+                        <i class="fa fa-link"></i>
+                        <div>
+                            <h4>external link</h4>
+                            <P>category 1, category 2</P>
+                        </div>
                     </div>
-                  </div>
-                  <div class="column nature col-3">
-                    <div class="content">
-                      <img src="./img/07b.jpg" alt="01" style="width:100%">
-                      <div class="portfolio-description">
-                            <i class="fa fa-search"></i>
-                            <h4>LIGHTBOX GALLARY</h4>
+                </div>
+                <div class="col-3 showcase-gallary-item">
+                    <img class="img-fluid" src="./img/07a.jpg">
+                    <div class="showcase-description">
+                        <i class="fa fa-search"></i>
+                        <div>
+                            <h4>lightbox gallary</h4>
                             <P>CATEGORY</P>
-                      </div>
+                        </div>
                     </div>
-                  </div>
-                  <div class="column nature col-3">
-                    <div class="content">
-                      <img src="./img/03.jpg" alt="01" style="width:100%">
-                      <div class="portfolio-description">
-                            <i class="fab fa-youtube-square"></i>
-                            <h4>VIDEO LIGHTBOX</h4>
+                </div>
+                <div class="col-3 showcase-gallary-item">
+                    <img class="img-fluid" src="./img/03.jpg">
+                    <div class="showcase-description">
+                        <i class="fab fa-youtube-square"></i>
+                        <div>
+                            <h4>video lightbox</h4>
                             <P>CATEGORY</P>
-                      </div>
+                        </div>
                     </div>
-                  </div>
-                  <div class="column nature col-3">
-                    <div class="content">
-                      <img src="./img/04.jpg" alt="01" style="width:100%">
-                      <div class="portfolio-description">
-                            <i class="fa fa-search"></i>
+                </div>
+                <div class="col-3 showcase-gallary-item">
+                    <img class="img-fluid" src="./img/04.jpg">
+                    <div class="showcase-description">
+                        <i class="fa fa-search"></i>
+                        <div>
                             <h4>LIGHTBOX VIEW</h4>
-                            <P>CATEGORY 3, CATEGORY 4</P>
-                      </div>
+                            <P>category 3, category 4</P>
+                        </div>
                     </div>
-                  </div>
-                  <div class="column nature col-3">
-                    <div class="content">
-                      <img src="./img/05.jpg" alt="01" style="width:100%">
-                      <div class="portfolio-description">
-                            <i class="fa fa-link"></i>
-                            <h4>EXTERNAL LINK</h4>
+                </div>
+                <div class="col-3 showcase-gallary-item">
+                    <img class="img-fluid" src="./img/05.jpg">
+                    <div class="showcase-description">
+                        <i class="fa fa-link"></i>
+                        <div>
+                            <h4>external link</h4>
                             <P>CATEGORY</P>
-                      </div>
+                        </div>
                     </div>
-                  </div>
-                  <div class="column nature col-3">
-                    <div class="content">
-                      <img src="./img/08b.jpg" alt="01" style="width:100%">
-                      <div class="portfolio-description">
-                            <i class="fa fa-search"></i>
-                            <h4>LIGHTBOX GALLARY</h4>
+                </div>
+                <div class="col-3 showcase-gallary-item">
+                    <img class="img-fluid" src="./img/08b.jpg">
+                    <div class="showcase-description">
+                        <i class="fa fa-search"></i>
+                        <div>
+                            <h4>lightbox gallary</h4>
                             <P>CATEGORY</P>
-                      </div>
+                        </div>
                     </div>
-                  </div>
-                  <div class="column nature col-3">
-                    <div class="content">
-                      <img src="./img/06.jpg" alt="01" style="width:100%">
-                      <div class="portfolio-description">
-                            <i class="fa fa-search"></i>
+                </div>
+                <div class="col-3 showcase-gallary-item">
+                    <img class="img-fluid" src="./img/06.jpg">
+                    <div class="showcase-description">
+                        <i class="fa fa-search"></i>
+                        <div>
                             <h4>LIGHTBOX VIEW</h4>
-                            <P>CATEGORY 5, CATEGORY 6</P>
-                      </div>
+                            <P>category 5, category 6</P>
+                        </div>
                     </div>
-                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="team page-content">
+            <div class="heading container text-center">
+                <h3 class="h3-line">WE HAVE A FABULOUS TEAM</h3>
+                <p>We are a team of multi-skilled and curious digital specialists who are always up for a challenge and learning as fast as digital is changing. We are a team of multi-skilled and curious digital specialists who are always up for a challenge.</p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 team-pd">
+                        <div class="team-member">
+                            <div class="team-img">
+                                <img src="./img/t-1.jpg" class="img-fluid">
+                                <div class="team-img-info">
+                                    <h5>Martin Smith</h5>
+                                    <span>founder & ceo</span>
+                                </div>
+                            </div>
+                            <div class="team-hover">
+                                <div class="team-hover-desc">
+                                    <h4>I love my Studio</h4>
+                                    <p>We are a team of multi-skilled and curious digital specialists who are always up for a challenge and learning as fast as digital is changing.</p>
+                                </div>
+                                <div class="team-hover-link">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-google-plus-g"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 team-pd">
+                        <div class="team-member">
+                            <div class="team-img">
+                                <img src="./img/t-2.jpg" class="img-fluid">
+                                <div class="team-img-info">
+                                    <h5>Franklin Harbet</h5>
+                                    <span>HR Manager</span>
+                                </div>
+                            </div>
+                            <div class="team-hover">
+                                <div class="team-hover-desc">
+                                    <h4>Connecting People</h4>
+                                    <p>We are a team of multi-skilled and curious digital specialists who are always up for a challenge and learning as fast as digital is changing.</p>
+                                </div>
+                                <div class="team-hover-link">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-google-plus-g"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 team-pd">
+                        <div class="team-member">
+                            <div class="team-img">
+                                <img src="./img/t-3.jpg" class="img-fluid">
+                                <div class="team-img-info">
+                                    <h5>Linda Anderson</h5>
+                                    <span>Marketing Manager</span>
+                                </div>
+                            </div>
+                            <div class="team-hover">
+                                <div class="team-hover-desc">
+                                    <h4>Network Builder</h4>
+                                    <p>We are a team of multi-skilled and curious digital specialists who are always up for a challenge and learning as fast as digital is changing.</p>
+                                </div>
+                                <div class="team-hover-link">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-google-plus-g"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 team-pd">
+                        <div class="team-join">
+                            <div class="team-join-info">
+                                <h4>we are 
+                                    <span>Hiring</span>
+                                </h4>
+                                <p>Nullam ut consectetur dolor. Sed sit amet iaculis nisi. Mauris ridiculus elementum non felis etewe blandit. </p>
+                            </div>
+                            <button class="btn btn-join">
+                                Join the Club
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="parallax">
+            <div class="container">
+                <div class="parallax-heading">
+                    <h4>AWESOME PARALLAX EFFECT</h4>
+                    <h1>ART IS KNOWING WHICH ONES TO KEEP</h1>
+                    <button class="btn btn-parallax">Hang with us</button>
+                </div>
+            </div>
+        </div>
+        <div class="blog page-content">
+            <div class="container">
+                <div class="heading blog-heading">
+                    <h3 class="h3-line">LATEST BLOG</h3>
+                    <p>Sed sit amet iaculis nisi. Mauris ridiculus elementum non felis etewe blandit Pellentesque eu quam sem, ac malesuada leo sem quam pellente.</p>
+                </div>
+                <div class="row blog-content">
+                    <div class="col-md-6 blog-pd">
+                        <div class="blog-left">
+                            <img class="img-fluid" src="./img/p7.jpg" alt="">
+                            <div class="blog-info">
+                                <p>We work together for fun</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 blog-pd">
+                        <div class="blog-post">
+                            <ul class="post-cat">
+                                <li>
+                                    <a href="#">interface,</a>
+                                </li>
+                                <li>
+                                    <a href="#">standard,</a>
+                                </li>
+                            </ul>
+                            <h4>
+                                <a href="#">we work together for fun</a>
+                            </h4>
+                            <div class="post-date">
+                                <a href="#">martin smith |</a>
+                                <p>
+                                    july 29, 2015
+                                </p>
+                            </div>
+                            <p>Phasellus fringilla suscipit risus nec eleifend. Pellentesque eu quam sem, ac malesuada leo sem quam pellente. Awesome sliders give you the opportunity to showcase your content. fringilla suscipit risus nec eleifend. Pellentesque eu quam sem, ac malesuada leo sem quam pellente. Awesome sliders give you the opportunity to showcase your content.</p>
+                            <a href="#">Read More <i class="fa fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="together page-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="icon-box">
+                            <ul class="nav nav-pills" id="together-nav">
+                                <li>
+                                    <a href="#tap1" data-toggle="tab" aria-expanded="true" class="active together-nav-item">
+                                        <i class="fa fa-mobile-alt"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#tap2" data-toggle="tab" aria-expanded="true" class="together-nav-item">
+                                        <i class="fa fa-file-alt"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#tap3" data-toggle="tab" aria-expanded="true" class="together-nav-item">
+                                        <i class="fa fa-lightbulb"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#tap4" data-toggle="tab" aria-expanded="true" class="together-nav-item">
+                                        <i class="fa fa-drafting-compass"></i>
+                                    </a>
+                                </li>
+                                <li class="together-nav-item">
+                                    <a href="#tap5" data-toggle="tab" aria-expanded="true" class="together-nav-item">
+                                        <i class="fab fa-wpexplorer"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="panel-body">
+                                <div class="tab-content">
+                                    <div id="tap1" class="tab-pane active">
+                                        <div class="heading-title">
+                                            <h5>full responsive</h5>
+                                            <h2>we work together for fun</h2>
+                                            <p>
+                                                In quis scelerisque velit. Proin pellentesque neque ut scelerisque dapibus. Praesent elementum feugiat dignissim. Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus
+                                                eget diam. Proin ac metus diam. In quis scelerisque velit. Proin pellentesque neque ut scelerisque dapibus. Praesent elementum feugiat dignissim. Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                                                justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget diam. Proin ac metus diam.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div id="tap2" class="tab-pane">
+                                        <div class="heading-title">
+                                            <h5>work for fun</h5>
+                                            <h2>Massive UI collection</h2>
+                                            <p>
+                                                Leo quam aliquet diam, congue laoreet elit metus eget diam. Proin ac metus diam. In quis scelerisque velit. Proin pellentesque neque ut scelerisque dapibus. Praesent elementum feugiat dignissim. Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                                                justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget diam. Proin ac metus diam. In quis scelerisque velit. Proin pellentesque neque ut scelerisque dapibus. Praesent elementum feugiat
+                                                dignissim. Nunc placerat mi id nisi interdum mollis.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div id="tap3" class="tab-pane">
+                                        <div class="heading-title">
+                                            <h5>Multipurpose</h5>
+                                            <h2>Huge possibilities</h2>
+                                            <p>
+                                                congue laoreet elit metus eget diam. Proin ac metus diam. In quis scelerisque velit. Proin pellentesque neque ut scelerisque dapibus. Praesent elementum feugiat dignissim. Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
+                                                mattis, leo quam aliquet diam, congue laoreet elit metus eget diam. Proin ac metus diam. In quis scelerisque velit. Proin pellentesque neque ut scelerisque dapibus. Praesent elementum feugiat dignissim. Nunc
+                                                placerat mi id nisi interdum mollis.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div id="tap4" class="tab-pane">
+                                        <div class="heading-title">
+                                            <h5>sky is the limit</h5>
+                                            <h2>we work together for fun</h2>
+                                            <p>
+                                                Proin ac metus diam. In quis scelerisque velit. Leo quam aliquet diam, congue laoreet elit metus eget diam. Proin pellentesque neque ut scelerisque dapibus. Praesent elementum feugiat dignissim. Nunc placerat mi id nisi interdum mollis. Praesent pharetra,
+                                                justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget diam. Proin ac metus diam. In quis scelerisque velit. Proin pellentesque neque ut scelerisque dapibus. Praesent elementum feugiat
+                                                dignissim. Nunc placerat mi id nisi interdum mollis.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div id="tap5" class="tab-pane">
+                                        <div class="heading-title">
+                                            <h5>responsive</h5>
+                                            <h2>Unlimited shortcode</h2>
+                                            <p>
+                                                Kusto ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget diam. Proin ac metus diam. In quis scelerisque velit. Proin pellentesque neque ut scelerisque dapibus. Praesent elementum feugiat dignissim. Nunc placerat mi id nisi interdum
+                                                mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget diam. Proin ac metus diam. In quis scelerisque velit. Proin pellentesque neque ut scelerisque dapibus.
+                                                Praesent elementum feugiat dignissim. Nunc placerat mi id nisi interdum mollis.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

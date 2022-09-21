@@ -9,7 +9,7 @@ window.onscroll = function () {
         $('#header-style').removeClass("header-scroll");
     }
 } 
-// add class active
+// add class active header
 var navActive = document.getElementById("header-navbar-nav");
 var liList = navActive.getElementsByClassName("nav-item");
 for (var i = 0; i < liList.length; i++) {
@@ -19,3 +19,14 @@ for (var i = 0; i < liList.length; i++) {
     this.className += " active";
   });
 }
+// // add class active showcase
+// var showcaseActive = document.getElementsByClassName("showcase-nav");
+// var liShowcaseList = showcaseActive.getElementsByClassName("showcase-nav-item");
+// for (var i = 0; i < liShowcaseList.length; i++) {
+//     liShowcaseList[i].addEventListener("click", function(){
+//     var liCurrent = document.getElementsByClassName("active");
+//     liCurrent[0].className = liCurrent[0].className.replace("active","");
+//     this.className += " active";
+//   });
+// }
+

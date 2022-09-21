@@ -81,9 +81,11 @@ header{
                                     color: $color-orange-0;
                                 }
                             }
-                            .nav-link.active{
+                        }
+                        .nav-item.active{
+                            .nav-link{
                                 color: $color-orange-0;
-                            }
+                                }
                         }
                     }
                 }
