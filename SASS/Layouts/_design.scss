@@ -59,3 +59,15 @@
         }
     }
 }
+@media screen and (max-width:992px) {
+    .body-content{
+        .design-content {
+            .design-box{
+                margin-bottom: 1px;
+                .design-content-item{
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+}

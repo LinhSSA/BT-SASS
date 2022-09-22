@@ -36,7 +36,7 @@ for (var i = 0; i < liList.length; i++) {
 // }
 $('.num').countUp();
 // owl-carosel
-$('.owl-carousel').owlCarousel({
+$('#slogan-carousel').owlCarousel({
     loop:true,
     nav:false,
     autoplay:true,
@@ -46,6 +46,17 @@ $('.owl-carousel').owlCarousel({
             items:1
         }
     }
+})
+$('#logo-carousel').owlCarousel({
+  loop:true,
+  nav:false,
+  autoplay:true,
+  autoplayTimeout:2000,
+  responsive:{
+      1200:{
+          items:6
+      }
+  }
 })
 // back to top
 let mybutton = document.getElementById("myBtn");

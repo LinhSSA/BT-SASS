@@ -1,13 +1,32 @@
 .body-content{
     .team{
+        .container-md{
+            padding-right: 0;
+            .row{
+                width: 100%;
+                margin-left: 0;
+                margin-right: 0;
+            }
+        }
         .team-pd{
             padding: 0 $pd-2;
+            .team-join{
+                .btn-join{
+                    width: 250px;
+                }
+                .team-join-info{
+                    padding-right: 30px;
+                }
+            }
         }
         .team-member{
             position: relative;
             overflow: hidden;
             .team-img{
                 position: relative;
+                img{
+                    width: 100%;
+                }
                 .team-img-info{
                     position: absolute;
                     right: 0;
@@ -126,6 +145,40 @@
             }
             .btn-join{
                 height: 70%;
+            }
+        }
+    }
+}
+@media screen and (max-width:991.8px) {
+    .body-content {
+        .team {
+            .team-pd{
+                margin-bottom: 10px;
+            }
+            .team-member:hover{
+                .team-hover{
+                    .team-hover-desc{
+                        transform: translateY(160%);
+                    }
+                    .team-hover-link{
+                        transform: translateY(-305%);
+                    }
+                }
+            }
+        }
+    }  
+}
+@media screen and (max-width:768px){
+    .body-content{
+        .team{
+            .team-pd{
+                .team-join{
+                    padding: $pd-8 10px;
+                    flex-wrap: wrap;
+                    .team-join-info{
+                        display: block;
+                    }
+                }
             }
         }
     }

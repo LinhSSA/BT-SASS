@@ -116,5 +116,17 @@
                 }
             }
         }
+        
+    }
+}
+@media screen and (max-width:800px) {
+    .body-content{
+        .skill-content{
+            .skill-box{
+                .dark-overlay{
+                    display: none;
+                }
+            }
+        }
     }
 }
