@@ -71,3 +71,14 @@
         }
     }
 }
+@media screen and (max-width:450px) {
+    .body-content{
+        .design-content{
+            .container{
+                .row{
+                    margin: 0;
+                }
+            }
+        }
+    }
+}

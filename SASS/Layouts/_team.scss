@@ -183,3 +183,22 @@
         }
     }
 }
+@media screen and (max-width:450px) {
+    .body-content {
+        .team {
+            .team-pd{
+                margin-bottom: 10px;
+            }
+            .team-member:hover{
+                .team-hover{
+                    .team-hover-desc{
+                        transform: translateY(85%);
+                    }
+                    .team-hover-link{
+                        transform: translateY(-250%);
+                    }
+                }
+            }
+        }
+    }  
+}

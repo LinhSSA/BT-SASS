@@ -40,11 +40,17 @@ $('#slogan-carousel').owlCarousel({
     loop:true,
     nav:false,
     autoplay:true,
-    autoplayTimeout:5000,
+    autoplayTimeout:3000,
     responsive:{
         0:{
             items:1
-        }
+        },
+        576:{
+          items:2
+        },
+        1200:{
+          items:1
+        },
     }
 })
 $('#logo-carousel').owlCarousel({
@@ -53,8 +59,14 @@ $('#logo-carousel').owlCarousel({
   autoplay:true,
   autoplayTimeout:2000,
   responsive:{
-      1200:{
-          items:6
+      0:{
+        items:1
+      },
+      785:{
+        items:3
+      },
+      1215:{
+        items:6
       }
   }
 })

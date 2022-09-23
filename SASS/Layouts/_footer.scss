@@ -65,9 +65,12 @@ footer{
         }
     }
     .footer-bottom{
+        .row{
+            margin: 0;
+        }
         padding: $pd-8 - 5 0;
         background: $color-black-2;
-        border: $border-top-0;
+        border-bottom: $border-top-0;
         font-weight: $font-weight-normal;
         p{
             margin-top: $mg-6;
@@ -99,6 +102,23 @@ footer{
                     color: $color-white;
                     border: $border-2;
                     background-color: $color-gray-4;
+                }
+            }
+        }
+    }
+}
+@media screen and(max-width:768px) {
+    footer{
+        .footer-bottom{
+            p{
+                margin-bottom: 10px;
+            }
+            .social-link{
+                float: left;
+                a{
+                    &:first-child{
+                        margin-left: 0;
+                    }
                 }
             }
         }

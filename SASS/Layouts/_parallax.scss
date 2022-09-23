@@ -27,3 +27,19 @@
         }
     }
 }
+@media screen and (max-width:767.8px) {
+    .body-content {
+        .parallax{
+            .container {
+                .parallax-heading{
+                    h1{
+                        font-size: 26px;
+                    }
+                    .btn-parallax{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}

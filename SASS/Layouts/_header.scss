@@ -96,23 +96,8 @@ header{
         }
     }
 }
-    @media screen and (max-width:576px) {
-        header{
-            height: 60px;
-            .header-normal{
-                height: 60px;
-                #header-nav{
-                    height: 60px;
-                    .nav-header{
-                        .nav-header-logo{
-                            height: 60px;
-                        }
-                }
-            }
-        }
-    }
-}
-    @media screen and (max-width:767.5px) {
+
+@media screen and (max-width:768.5px) {
     header{
         height: 60px;
         .header-normal{
@@ -120,6 +105,19 @@ header{
             #header-nav{
                 height: 60px;
                 .nav-header{
+                    justify-content: space-between;
+                    .navbar-toggler{
+                        display: block;
+                    }
+                    .navbar-collapse:not(.show){
+                        display: none !important;
+                    }
+                    .navbar-collapse.show{
+                        display: block !important;
+                        position: absolute;
+                        top: 100%;
+                        width: 100%;
+                    }
                     .nav-header-logo{
                         height: 60px;
                     }
@@ -165,6 +163,19 @@ header{
         .header-scroll{
             #header-nav{
                 .nav-header{
+                    justify-content: space-between;
+                    .navbar-toggler{
+                        display: block;
+                    }
+                    .navbar-collapse:not(.show){
+                        display: none !important;
+                    }
+                    .navbar-collapse.show{
+                        display: block !important;
+                        position: absolute;
+                        top: 100%;
+                        width: 100%;
+                    }
                     .nav-header-logo{
                         height: 60px;
                     }
@@ -209,7 +220,23 @@ header{
         }
     }
 }
-    @media screen and (min-width:768px) and (max-width:1000px) {
+@media screen and (max-width:576px) {
+        header{
+            height: 60px;
+            .header-normal{
+                height: 60px;
+                #header-nav{
+                    height: 60px;
+                    .nav-header{
+                        .nav-header-logo{
+                            height: 60px;
+                        }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width:769px) and (max-width:1000px) {
         header{
             .header-normal{
                 height: 100px;
@@ -230,6 +257,9 @@ header{
                                     margin-left: 10px;
                                     .nav-link{
                                         padding: 0 6px;
+                                    }
+                                    &.li-block{
+                                        display: block !important;
                                     }
                                 }
                                 li{
@@ -260,6 +290,9 @@ header{
                                     margin-left: 10px;
                                     .nav-link{
                                         padding: 0 6px;
+                                    }
+                                    &.li-block{
+                                        display: block !important;
                                     }
                                 }
                                 li{

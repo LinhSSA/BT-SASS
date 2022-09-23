@@ -7,3 +7,15 @@
         }
     }
 }
+@media screen and (min-width:1200px){
+    .body-content{
+        .logo{
+            #logo-carousel{
+                 .owl-stage{
+                    transition: all 1s !important;
+                    transform: translate3d(0px, 0px, 0px) !important ;
+                }
+            }
+        }
+    }
+}

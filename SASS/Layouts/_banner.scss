@@ -25,6 +25,7 @@
             }
         }
     }
+    
     @media screen and (max-width:768px) {
         .banner-logan{
             .banner-title{
@@ -36,6 +37,14 @@
                 }
             }
         }
+    }
+    @media screen and (max-width:450px) {
+            .banner-logan{
+                top: 50%;
+                left: 10px;
+                width: 100%;
+            }
+
     }
     @media screen and (min-width:769px) {
         .banner-logan{

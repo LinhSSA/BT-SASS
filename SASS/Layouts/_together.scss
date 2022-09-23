@@ -3,6 +3,9 @@
         background-image: url(../../img/pattern-2.png);
         background-repeat: repeat;
         background-attachment: fixed;
+        .row{
+            margin: 0;
+        }
         .icon-box{
             .nav-pills{
                 margin-bottom: 40px;
@@ -63,6 +66,39 @@
                             p{
                                 margin-bottom: 0;
                             }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:768px) {
+    .body-content{
+        .together{
+            .icon-box{
+                .nav-pills{
+                    li{
+                        margin-bottom: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:450px) {
+    .body-content{
+        .together{
+            .icon-box{
+                #together-nav{
+                    flex-direction: column;
+                    li{
+                        margin-left: 0;
+                        margin-bottom: 15px;
+                        text-align: center;
+                        a{
+                            display: block;
+                            width: 100%;
                         }
                     }
                 }
