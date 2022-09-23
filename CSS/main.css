@@ -454,7 +454,7 @@ header .header-scroll #header-nav .nav-header .nav-header-left .navbar-nav .nav-
 }
 
 .banner {
-  background-image: url("../../img/index-banner-2.jpg");
+  background-image: url("../img/index-banner-2.jpg");
   height: 667px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -602,7 +602,7 @@ header .header-scroll #header-nav .nav-header .nav-header-left .navbar-nav .nav-
   overflow: hidden;
   width: 100% !important;
   height: 100%;
-  background-image: url("../../img/index-banner-1.jpg");
+  background-image: url("../img/index-banner-1.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
@@ -1088,7 +1088,7 @@ header .header-scroll #header-nav .nav-header .nav-header-left .navbar-nav .nav-
 }
 
 .body-content .parallax {
-  background-image: url("../../img/8.jpg");
+  background-image: url("../img/8.jpg");
   padding: 150px 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1268,7 +1268,7 @@ header .header-scroll #header-nav .nav-header .nav-header-left .navbar-nav .nav-
 }
 
 .body-content .together {
-  background-image: url("../../img/pattern-2.png");
+  background-image: url("../img/pattern-2.png");
   background-repeat: repeat;
   background-attachment: fixed;
 }
